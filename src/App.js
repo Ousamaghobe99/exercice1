@@ -1,6 +1,10 @@
 import "./App.css";
 import TodoList from "./pages/TodoList";
 function App() {
-  return <TodoList></TodoList>;
+  return (
+    <div>
+      <TodoList></TodoList>
+    </div>
+  );
 }
 export default App;
